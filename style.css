@@ -113,4 +113,25 @@ h2 {
 
 #section-three {
   background-color: #ffafcc;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.quote {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.author {
+  align-self: flex-end;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 800;
 }
