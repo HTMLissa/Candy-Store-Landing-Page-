@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  background-color: #cdb4db;
+  color: white;
+}
+
+.header-logo {
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
