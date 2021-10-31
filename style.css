@@ -78,7 +78,33 @@ button:hover {
 
 /* Section 2 */
 
+#section-two {
+  padding-bottom: 90px;
+}
+
 h2 {
   color: #ffc8dd;
   font-family: "Lobster", cursive;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 1.8rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  color: #ffc8dd;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 7px;
 }
