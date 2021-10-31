@@ -1,12 +1,12 @@
 body {
   margin: 0;
+  color: white;
 }
 
 /* header */
 
 header {
   background-color: #cdb4db;
-  color: white;
 }
 
 .header-logo {
@@ -28,4 +28,32 @@ header {
 a {
   color: white;
   text-decoration: none;
+}
+
+/* Section One */
+
+#section-one {
+  background-color: #cdb4db;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+
+.section-one-text {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  width: 100px;
+}
+
+#candy-img-one {
+  width: 500px;
 }
