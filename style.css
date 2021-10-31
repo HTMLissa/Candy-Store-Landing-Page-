@@ -57,7 +57,7 @@ h1 {
   width: 400px;
 }
 
-button {
+.signup-btn-top {
   width: 100px;
   padding: 8px 0;
   border: 2px solid white;
@@ -67,7 +67,7 @@ button {
   transition: all 0.4s ease-out;
 }
 
-button:hover {
+.signup-btn-top:hover {
   background-color: white;
   color: #cdb4db;
 }
@@ -134,4 +134,45 @@ h2 {
   margin-top: 20px;
   font-size: 1.1rem;
   font-weight: 800;
+}
+
+/* Section 4 */
+
+#section-four {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container {
+  background-color: #bde0fe;
+  width: 60%;
+  margin: 70px 0;
+  padding: 36px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+.signup-container p {
+  margin: 0;
+}
+
+.signup-btn-bottom {
+  width: 100px;
+  height: 35px;
+  border: 2px solid white;
+  color: white;
+  background-color: #bde0fe;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+}
+
+.signup-btn-bottom:hover {
+  background-color: white;
+  color: #bde0fe;
 }
