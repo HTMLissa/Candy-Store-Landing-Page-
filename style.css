@@ -176,3 +176,9 @@ h3 {
   background-color: white;
   color: #bde0fe;
 }
+
+footer {
+  background-color: #a2d2ff;
+  padding: 24px;
+  text-align: center;
+}
