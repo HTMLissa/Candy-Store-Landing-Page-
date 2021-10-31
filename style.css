@@ -36,12 +36,12 @@ a {
 #section-one {
   background-color: #cdb4db;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 56px;
   padding: 70px;
 }
 
 .section-one-text {
-  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
