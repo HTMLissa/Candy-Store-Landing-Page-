@@ -1,6 +1,7 @@
 body {
   margin: 0;
   color: white;
+  font-family: "Mulish", sans-serif;
 }
 
 /* header */
@@ -40,7 +41,7 @@ a {
 }
 
 .section-one-text {
-  width: 500px;
+  width: 210px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,9 +49,27 @@ a {
 
 h1 {
   margin: 0;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+
+.section-one-text p {
+  width: 400px;
 }
 
 button {
+  width: 100px;
+  padding: 8px 0;
+  border: 2px solid white;
+  background-color: #cdb4db;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+}
+
+button:hover {
+  background-color: white;
+  color: #cdb4db;
 }
 
 #candy-img-one {
